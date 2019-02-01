@@ -1,0 +1,24 @@
+.header {
+  background: rgba(0, 0, 0, .50);
+  color: $off-white;
+  margin-bottom: $m-size;
+  padding: $m-size 0;
+  text-align: center;
+}
+
+.header__title {
+  font-size: $l-size;
+  margin: 0;
+}
+
+.header__subtitle {
+  color: $off-white;
+  font-weight: 500;
+  font-size: $m-size;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $xl-size;
+  }
+}

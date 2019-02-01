@@ -1,0 +1,23 @@
+.add-option {
+    display: flex;
+    padding: $m-size;
+    flex-direction: column;
+    @media (min-width: $desktop-breakpoint) {
+        flex-direction: row;
+    }
+    &-error {
+        color: $off-white;
+        font-style: italic;
+        padding: 0 $m-size;
+        margin: $m-size 0 0 0;
+    }
+    &-input {
+        flex-grow: 1;
+        border: none;
+        border-bottom: .3rem solid darken($dark-blue, 10%);
+        background: $dark-blue;
+        color: $off-white;
+        text-indent: $s-size;
+        padding: $s-size;
+    }
+}

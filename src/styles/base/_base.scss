@@ -1,0 +1,24 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  background: #c31432;
+  background: -webkit-linear-gradient(to bottom, #240b36, #c31432);
+  background: linear-gradient(to bottom, #240b36, #c31432);
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  transition: all .2s;
+  &:disabled {
+    cursor: default;
+  }
+}
+
+:focus {
+  outline: none;
+}
